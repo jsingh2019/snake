@@ -1,4 +1,9 @@
+#PLEASE NOTE ALL OF THE CODE IN THIS NOTEBOOK IS TAKEN FROM https://www.geeksforgeeks.org/snake-game-in-python-using-pygame-module/
+#WE DO NOT CLAIM OWNERSHIP OVER THIS CODE. 
+
+
 #Implementation of the snake game
+
 
 # importing libraries
 import pygame
@@ -77,7 +82,7 @@ def game_over():
     # creating a text surface on which text 
     # will be drawn
     game_over_surface = my_font.render(
-        'Your Score is : ' + str(score), True, red)
+        'Your Score is: ' + str(score), True, red)
     
     # create a rectangular object for the text 
     # surface object
